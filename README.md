@@ -45,8 +45,8 @@ except Exception as e:
 Main function
 if name == "main": # Input city name city = input("Enter the name of the city: ").strip()
 
-# Your OpenWeatherMap API key
+Your OpenWeatherMap API key
 api_key = "your_api_key_here"  # Replace with your API key
 
-# Fetch and display weather data
+Fetch and display weather data
 fetch_weather_data(city, api_key)
